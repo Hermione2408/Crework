@@ -1,0 +1,105 @@
+.container{
+    width:250px;
+    border:1px solid transparent;
+    display:flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+  font-size: 14px;
+  background-color: white;
+  margin-top: 10%;
+
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+   
+    background-color: #E8E8E8;
+}
+
+.header{
+     font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+.common{
+
+    display:flex;
+    flex-direction: column;
+}
+
+.common2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horizontal{
+    display:flex;
+  justify-content: space-between;
+}
+
+input{
+    height: 20px;
+    border:1px solid grey;
+    border-radius: 4px;
+    padding:5px;
+}
+
+input:focus{
+outline: solid 1px #0084FF ;
+
+}
+.margin10{
+margin-top: 5px;
+margin-bottom: 10px;
+
+}
+.SignUpbtn{
+    background: #0084FF;
+color: white;
+font-size:12px;
+width:100%;
+padding: 10px 5px;
+border: none;
+border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #0084FF ;
+}
+
+.SignUpbutton{
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    }
+
+.crossbtn{
+    border:solid 1px rgb(188, 183, 183);
+    border-radius: 50%;
+    padding:5px;
+}
+
+hr{
+    border-bottom: 1px solid rgb(188, 183, 183);
+}
+
+.sline{
+width:25%;
+border-bottom: 2px solid rgb(188, 187, 187) ;
+margin-left: 4px;
+}
+.line{
+    margin:0px 0px 10px 0px;
+    display:flex;
+}
+.l1{
+    border-bottom: 1px solid rgb(226, 226, 226) ;
+    margin:5px 0px 10px 0px;
+}
