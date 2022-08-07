@@ -1,0 +1,431 @@
+<html>
+
+<head>
+    <link href="./styles/main.css" rel="stylesheet" />
+    <link href="./dist/output.css" rel="stylesheet">
+    <title>
+        Home - Netflix
+    </title>
+
+</head>
+
+<body class="bg-[#141414]">
+    <div class="flex flex-col h-full w-full p-6 bg-cover bg-no-repeat bg-[url('https://images4.alphacoders.com/975/975508.jpg')] sm:bg-none sm:h-0"">
+
+        <div class="flex items-center">
+        <div class="flex items-center">
+            <button id="menu-btn" class="hamburger focus:outline-none lg:hidden sm:visible">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+            <div>
+                <div id="menu"
+                    class="text-gray-100 absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-[#141414] sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                    <a href="#">TV Shows</a>
+                    <a href="#">Movies</a>
+                    <a href="#">New&Popular Us</a>
+                    <a href="#">My List</a>
+                    <a href="#">Community</a>
+                </div>
+            </div>
+            <img style="width: 93px;" class="sm:ml-8 md:ml-8" src="assets/netflix-2-logo-svgrepo-com-cropped.svg" alt="Netflix logo" />
+        </div>
+        <div class="flex justify-between items-center ml-12 w-full text-white lg:visible">
+            <div class="space-x-6">
+
+                <a to="/" href="">Home</a>
+                <a to="/TVShows" href="./Pages/tvshows.html">TV Shows</a>
+                <a to="/Movies" href="./Pages/movies.html"> Movies</a>
+                <a href="./Pages/new&popular.html">New&Popular</a>
+                <a href="./Pages/mylist.html">My List</a>
+            </div>
+            <div class="flex justify-between items-center" style="width:200px;">
+                <img src="assets/icons8-search.svg" alt="search icon" />
+                <a>Children </a>
+                <img style="height: 20px; width: 20px;" src="assets/7050539391547464131.svg" alt="notification" />
+
+                <div class="flex"><img
+                        src="assets/AAAABYnnca7HCf0z4YHtIK5R8MIGCeMyodAsxBYSBmMkYHqjSw46VWWyNQirfwxT-CkbxPkp-G84Wu-iOMwGG-r9QAs.png"
+                        alt="person" />
+                    <img src="assets/dropdown-svgrepo-com.svg" alt="dropdown" />
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+    <div class="text-white w-1/2 flex flex-col mt-auto sm:hidden md:hidden">
+        <p>After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite
+            and assemble again to reinvigorate their trounced allies and restore balance.</p>
+        <div class="flex items-center">
+            <button class="text-black border-white bg-white p-2 w-24 flex items-center justify-center"> <img
+                    src="assets/play-button-svgrepo-com.svg" alt="play"><span class="ml-1">Play</span></button>
+            <button class="text-white ml-4 border-white bg-[#4F5254] p-2 w-32 flex items-center justify-center"> <img
+                    src="assets/info-svgrepo-com.svg" alt="info"> <span class="ml-1">More info</span></button>
+        </div>
+    </div>
+
+    </div>
+    <div class="flex flex-col h-5/6 overflow-scroll">
+        <div class="sm:mt-6 pl-6 flex flex-col mx-auto mb-10">
+
+            <h1 class="text-white mb-2">My List</h1>
+    
+            <div class="flex overflow-y-scroll ">
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfMv1lzHFW-7k6ITO8BMGQeg4VZsUFXCEn-kqxHzYwS1eVekRbLHx-OMidUD7-l4iVUhoF2iKzBEUoD_dtQZVvzuhSaeitY-kq4k21qrwummgeZEkzaeeGeYoVBv.jpg?r=49b"
+                    alt="moviecard1" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4 sm:h-56 w-5/12" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+            </div>
+    
+        </div>
+        <div class="pl-6 flex flex-col mb-10">
+    
+            <h1 class="text-white mb-2">New Release</h1>
+    
+            <div class="flex overflow-y-scroll">
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfMv1lzHFW-7k6ITO8BMGQeg4VZsUFXCEn-kqxHzYwS1eVekRbLHx-OMidUD7-l4iVUhoF2iKzBEUoD_dtQZVvzuhSaeitY-kq4k21qrwummgeZEkzaeeGeYoVBv.jpg?r=49b"
+                    alt="moviecard1" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4 sm:h-56 w-5/12" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+            </div>
+    
+        </div>
+        <div class="pl-6 flex flex-col mx-auto mb-10">
+
+            <h1 class="text-white mb-2">Bollywood Movies</h1>
+    
+            <div class="flex overflow-y-scroll">
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfMv1lzHFW-7k6ITO8BMGQeg4VZsUFXCEn-kqxHzYwS1eVekRbLHx-OMidUD7-l4iVUhoF2iKzBEUoD_dtQZVvzuhSaeitY-kq4k21qrwummgeZEkzaeeGeYoVBv.jpg?r=49b"
+                    alt="moviecard1" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4 sm:h-56 w-5/12" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+            </div>
+    
+        </div>
+        <div class="pl-6 flex flex-col mx-auto mb-10">
+    
+            <h1 class="text-white mb-2">Trending Now</h1>
+    
+            <div class="flex overflow-y-scroll">
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfMv1lzHFW-7k6ITO8BMGQeg4VZsUFXCEn-kqxHzYwS1eVekRbLHx-OMidUD7-l4iVUhoF2iKzBEUoD_dtQZVvzuhSaeitY-kq4k21qrwummgeZEkzaeeGeYoVBv.jpg?r=49b"
+                    alt="moviecard1" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4 sm:h-56 w-5/12" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+            </div>
+    
+        </div>
+        <div class="pl-6 flex flex-col mx-auto mb-10">
+    
+            <h1 class="text-white mb-2">TV Comedies</h1>
+    
+            <div class="flex overflow-y-scroll">
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfMv1lzHFW-7k6ITO8BMGQeg4VZsUFXCEn-kqxHzYwS1eVekRbLHx-OMidUD7-l4iVUhoF2iKzBEUoD_dtQZVvzuhSaeitY-kq4k21qrwummgeZEkzaeeGeYoVBv.jpg?r=49b"
+                    alt="moviecard1" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4 sm:h-56 w-5/12" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+            </div>
+    
+        </div>
+        <div class="pl-6 flex flex-col mx-auto mb-10">
+    
+            <h1 class="text-white mb-2">Because you watched ABCD</h1>
+    
+            <div class="flex overflow-y-scroll">
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfMv1lzHFW-7k6ITO8BMGQeg4VZsUFXCEn-kqxHzYwS1eVekRbLHx-OMidUD7-l4iVUhoF2iKzBEUoD_dtQZVvzuhSaeitY-kq4k21qrwummgeZEkzaeeGeYoVBv.jpg?r=49b"
+                    alt="moviecard1" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4 sm:h-56 w-5/12" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+            </div>
+    
+        </div>
+        <div class="pl-6 flex flex-col mx-auto mb-10">
+    
+            <h1 class="text-white mb-2">TV Serials</h1>
+    
+            <div class="flex overflow-y-scroll">
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfMv1lzHFW-7k6ITO8BMGQeg4VZsUFXCEn-kqxHzYwS1eVekRbLHx-OMidUD7-l4iVUhoF2iKzBEUoD_dtQZVvzuhSaeitY-kq4k21qrwummgeZEkzaeeGeYoVBv.jpg?r=49b"
+                    alt="moviecard1" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4 sm:h-56 w-5/12" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+            </div>
+    
+        </div>
+        <div class="pl-6 flex flex-col mx-auto mb-10">
+    
+            <h1 class="text-white mb-2">Trending</h1>
+    
+            <div class="flex overflow-y-scroll">
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfMv1lzHFW-7k6ITO8BMGQeg4VZsUFXCEn-kqxHzYwS1eVekRbLHx-OMidUD7-l4iVUhoF2iKzBEUoD_dtQZVvzuhSaeitY-kq4k21qrwummgeZEkzaeeGeYoVBv.jpg?r=49b"
+                    alt="moviecard1" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12" src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2
+    " alt="moviecard3" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABbWoETctt6IORT8uEmpjMNf_2bCmR_SjlqcwkHE0KFNMvIfflSU3dSruY3fG_NFFriOh6j9c58n9COceN3iMulVXP9A.webp?r=7f2"
+                    alt="moviecard4 sm:h-56 w-5/12" />
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWWFt_SX57LlEKeaLTarqL0QK52nZ4pTHTXOTvR4Id9t5A9ozaOjthDgo7svgFQ8Z4O5v2a-ERMkY_p9vIQMwMRPIOE.webp?r=eda"
+                    alt="moviecard5" />
+    
+                <img class="ml-2 mb-3 sm:h-56 w-5/12"
+                    src="https://occ-0-5005-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABTaf82iW4QkH1PJj_UKQ3EQxfro14NamSZ-gXHsghQZbVDOUBdweV5DIAf5DVDBD5losRfbziT7Kq0ykWdvzFb07VdE.webp?r=12f"
+                    alt="moviecard" />
+            </div>
+    
+        </div>
+    </div>
+    <div class="footer pl-6 pb-6">
+        <div>
+            <div class="socialicon flex">
+                <img src="assets/facebook-svgrepo-com (1).svg" alt="fbicon" />
+                <img src="assets/instagram-svgrepo-com.svg" alt="instaicon" />
+                <img src="assets/icons8-twitter.svg" alt="twittericon" />
+                <img src="assets/icons8-youtube.svg" alt="yticon" />
+
+            </div>
+            <div>
+                <ul class="sublinks">
+                    <li>Audio and Subtitles </li>
+                    <li>Audio Description </li>
+                    <li>Help Center </li>
+                    <li>Gift Cards </li>
+                    <li>Media Center </li>
+                    <li>Investor Relations </li>
+                    <li>Jobs </li>
+                    <li>Terms of Use </li>
+                    <li>Privacy </li>
+                    <li>Legal Notices </li>
+                    <li>Corporate Information </li>
+                    <li>Contact Us </li>
+                    <li>Cookie Preference </li>
+                </ul>
+
+            </div>
+            <div class="code">
+                Service code
+            </div>
+            <div class="copyright">
+                <p>&copy 1997-2022 Netflix, Inc {17449bf7-0f67-4ff8-ab03-d7b0e7c4a3fb}</p>
+
+
+            </div>
+
+        </div>
+    </div>
+    <script src="js/index.js"> </script>
+    <script src="./animation.js"> </script>
+
+
+</body>
+
+</html>

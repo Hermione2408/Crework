@@ -1,0 +1,24 @@
+{
+  "name": "netfixclone",
+  "version": "1.0.0",
+  "description": "Clone of Netflix using HTML and CSS",
+  "main": "animation.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hermione2408/Netflix-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hermione2408/Netflix-clone/issues"
+  },
+  "homepage": "https://github.com/Hermione2408/Netflix-clone#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
