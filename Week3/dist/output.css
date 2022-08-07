@@ -612,10 +612,6 @@ video {
   display: none;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-5\/6 {
   height: 83.333333%;
 }
@@ -700,16 +696,8 @@ video {
   background-color: rgb(79 82 84 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'https\:\/\/images4\.alphacoders\.com\/975\/975508\.jpg\'\)\] {
-  background-image: url('https://images4.alphacoders.com/975/975508.jpg');
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
+.bg-none {
+  background-image: none;
 }
 
 .p-6 {
@@ -762,11 +750,7 @@ video {
   outline-offset: 2px;
 }
 
-@media (min-width: 480px) {
-  .sm\:visible {
-    visibility: visible;
-  }
-
+@media (min-width: 640px) {
   .sm\:ml-8 {
     margin-left: 2rem;
   }
@@ -775,20 +759,8 @@ video {
     margin-top: 1.5rem;
   }
 
-  .sm\:hidden {
-    display: none;
-  }
-
-  .sm\:h-5\/6 {
-    height: 83.333333%;
-  }
-
   .sm\:h-56 {
     height: 14rem;
-  }
-
-  .sm\:h-0 {
-    height: 0px;
   }
 
   .sm\:w-auto {
@@ -798,29 +770,21 @@ video {
   .sm\:self-center {
     align-self: center;
   }
-
-  .sm\:overflow-scroll {
-    overflow: scroll;
-  }
-
-  .sm\:bg-none {
-    background-image: none;
-  }
 }
 
 @media (min-width: 768px) {
   .md\:ml-8 {
     margin-left: 2rem;
   }
-
-  .md\:hidden {
-    display: none;
-  }
 }
 
-@media (min-width: 976px) {
+@media (min-width: 1024px) {
   .lg\:visible {
     visibility: visible;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:hidden {
@@ -831,7 +795,19 @@ video {
     height: 100%;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:bg-\[url\(\'https\:\/\/images4\.alphacoders\.com\/975\/975508\.jpg\'\)\] {
     background-image: url('https://images4.alphacoders.com/975/975508.jpg');
+  }
+
+  .lg\:bg-cover {
+    background-size: cover;
+  }
+
+  .lg\:bg-no-repeat {
+    background-repeat: no-repeat;
   }
 }
