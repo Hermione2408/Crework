@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./login.js"></script>
+
+    <title>Log in</title>
+</head>
+<body>
+    <div id="success-message" style="display:none;" class="success-message">
+        Congratulations! You have successfully logged in
+    </div>
+    <div id="invalid-credentials" style="display:none;" class="invalid-credentials">
+        Please enter correct email and password
+    </div>
+    <div class="container">
+    <div class="header common">
+      <div class="horizontal">
+        <div>Log in</div> 
+        <img class="crossbtn" src="./cross.svg" width="8" alt="cross icon" />
+      </div>  
+        <button class="common2 SignUpbutton"><img src="./google.svg" alt="">Log in with Google</button>
+    </div>
+<div class="l1"></div>
+    <div class="body common">
+     <form>
+        
+        <div class="common ">
+            <label>Email</label>
+            <input class="margin10" id="email" type="email" placeholder="example@gmail.com" />
+            <p class="error-message" id="email-error" style="display: none;">Please Enter a valid Email</p>
+
+        </div>
+
+        <div class="common">
+            <label>Password</label>
+            <input class="margin10" id="password" type="password" placeholder="at least 8 character" /> 
+            <p class="error-message" id="password-error" style="display: none;">Please Enter a valid password</p>
+
+        </div>
+
+    
+
+         <div style="justify-content:flex-start" class="common2 tc" >
+            <input type="checkbox"/>
+            <label style="font-size:12px;">Remember me</label>
+         </div>
+           
+         
+       
+         <button class="SignUpbtn margin10" id="login-btn" disabled >Log in</button>
+         <div class="margin10 common2"> <a href="#">Forgot password?</a></div>
+        </form>
+    </div>
+    <div class="l1"></div>
+
+    <div class="footer common common2">
+     <p>Don't have an account?</p>
+     <a href="./sign_up.html">Sign Up</a>
+    </div>
+
+</div>
+</body>
+
+</html>

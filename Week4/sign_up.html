@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./signup.js"></script>
+
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container">
+    <div class="header common">
+      <div class="horizontal">
+        <div>Sign Up</div> 
+        <img class="crossbtn" src="./cross.svg" width="8" alt="cross icon" />
+      </div>  
+        <button class="common2 SignUpbutton"><img src="./google.svg" alt="">Sign up with Google</button>
+    </div>
+<div class="l1"></div>
+    <div class="body common">
+     <form>
+        <div class="common">
+            <label>Name</label>
+            <input class="margin10" type="text" placeholder="Leslie Alexander" />
+        </div>
+        <div class="common " >
+            <label>Email</label>
+            <input class="margin10" id="email" type="email" placeholder="example@gmail.com" />
+            <p class="error-message" id="email-error" style="display: none;">Please Enter a valid Email</p>
+        </div>
+
+        <div class="common" >
+            <label>Password</label>
+            <input class="margin10" id="password" type="password" placeholder="at least 8 character" /> 
+            <p class="error-message" id="password-error" style="display: none;">Please Enter a valid password</p>
+
+        </div>
+
+        <div class="line">
+            <div class="sline"></div>
+            <div class="sline"></div>
+            <div class="sline"></div>
+            <div class="sline"></div>
+        </div>
+
+         <div class="common2 tc" >
+            <input type="checkbox"/>
+            <label style="font-size:12px;">I agree with <a href="#">Terms</a> and <a href="#">Privacy</a></label>
+         </div>
+           
+         
+       
+         <button class="SignUpbtn margin10" >Sign Up</button>
+     </form>
+    </div>
+    <div class="l1"></div>
+
+    <div class="footer common common2">
+     <p>Already have an account?</p>
+     <a href="./login.html">Log in</a>
+    </div>
+
+</div>
+</body>
+
+</html>
