@@ -49,7 +49,7 @@ I have tried to Clone Netflix
  
  # Week 4
  
- Here in this week, we Added validation and error handling to a Signup and Login Module via JavaScript
+ Here in this week, we Added validation and error handling to a Signup and Login Module via JavaScript.
  
   ##Signup
       1.) Email and password validation
