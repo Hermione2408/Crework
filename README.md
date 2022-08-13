@@ -47,5 +47,37 @@ I have tried to Clone Netflix
  
  
  
+ # Week 4
+ 
+ Here in this week, we Added validation and error handling to a Signup and Login Module via JavaScript
+ 
+  ##Signup
+      1.) Email and password validation
+      2.) Error messages and box border changes according to validation.
+       
+       ### SignUp Valid
+        ![SignUp Valid](https://github.com/Hermione2408/Crework/blob/main/crework%20img/signup_valid.png)
+
+       ### SignUp Email Invalid
+        ![SignUp Email Invalid](https://github.com/Hermione2408/Crework/blob/main/crework%20img/signup_invalid_email.png)
+ 
+       ### SignUp Password Invalid
+        ![SignUp Password Invalid](https://github.com/Hermione2408/Crework/blob/main/crework%20img/signup_invalid_email_pass.png)
+ 
+    ##Login
+       1.) If invalid email, Login button won;t work
+       2.) On valid email , if email is **sahil@crework.in** and password is **sahil** , then show success popup on top right
+       3.) For every other email and password, show failure popup on top right
+       4.) Popup go away after 5 seconds.
+
+       ### Login Valid
+        ![Login Valid](https://github.com/Hermione2408/Crework/blob/main/crework%20img/login_success.png)
+
+       ### Login Email Invalid
+        ![Login Email Invalid](https://github.com/Hermione2408/Crework/blob/main/crework%20img/login_invalid_email.png)
+ 
+       ### Login failed
+        ![Login failed](https://github.com/Hermione2408/Crework/blob/main/crework%20img/login_failed.png)
+ 
  
  
